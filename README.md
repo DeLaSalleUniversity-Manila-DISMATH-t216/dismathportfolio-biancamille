@@ -1,7 +1,7 @@
-# dismathportfolio-biancamille
+# My DISMATH Portfolio
 dismathportfolio-biancamille created by Classroom for GitHub
 
-# Week 3:
+## Week 3:
 - This was our first meeting and I learned that the topics are not easy.
 - I learned that I need to study hard on this subject to pass, even though I have lots of major subjects this term.
 - I learned what "Proposition" means and how you could tell that the statement is a proposition or not.
