@@ -45,8 +45,8 @@ TRUTH TABLE FOR NEGATION OF EXCLUSIVE OR
 - I learned the proper way of proving certain problem that only uses Logical Equivalences, by identifying what law was applied per step.
 - If there's a problem that i need to evaluate, any tools can be used and it will come up to the same answer. For example: Evaluate (p ∧ q) → (p v q). It will come up to the same answer **T** when we use Truth Table or Logical Equivalences - *Implication Equivalence*.
 - I learned that Tautology is always true in every possible interpretation.
-- I learned that in Universal Quantifier (**∀ x P(x)**), a substitution is not possible for that to be true, rather, the Predicate **P(x)** is true for every **x**.
-- The logical representation for Universal Quantifier is (P1 ∧ P2 ∧ P3 ∧ ... ∧ Pn) while for Existential Quantifier (P1 v P2 v P3 v ... v Pn).
+- I learned that in Universal Quantifier (**∀ x P(x)**), a substitution is not possible for that to be true, rather, the Predicate **P(x) is true for every x**.
+- The logical expresion for Universal Quantifier is (P1 ∧ P2 ∧ P3 ∧ ... ∧ Pn) while for Existential Quantifier (P1 v P2 v P3 v ... v Pn).
 - I learned that it is easy to prove Existential Quantifier but hard to disprove, opposite with the Universal Quantifier wherein it is easy to disprove it but hard to prove that it is true for instances that are all true.
-- I learned that if I want the Universal Quantifier and Existential Quantifier to be false, I will negate them and use the rule of De Morgan by distributing the negation (¬) to its logical representations.
+- I learned that if I want the Universal Quantifier and Existential Quantifier to be false, I will negate them and use the rule of De Morgan by distributing the negation (¬) to their logical expressions.
 - In summary, I learned that the **negation of the Universal Statement is the Existential Statement** while the **negation of the Existential Statement is the Universal Statement**.
