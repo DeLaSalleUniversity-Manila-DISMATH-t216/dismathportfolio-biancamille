@@ -52,11 +52,11 @@ TRUTH TABLE FOR NEGATION OF EXCLUSIVE OR
 - In summary, I learned that the **negation of the Universal Statement is the Existential Statement** while the **negation of the Existential Statement is the Universal Statement**.
 
 ## Week 3:
-- The learned that the Rule of Inference is used to prove for a sequence of statements that would end up with a conclusion.
+- The learned that the Rules of Inference is used to prove for a sequence of statements that would end up with a conclusion.
 - I learned that the conclusion must follow from the truth of the preceding statements, or what we call the **premises**, of the argument.
 - I learned that whenever all its premises are true, the conclusion must also be true, in other words we call it the **Tautology**.
 
-RULE OF INFERENCE TABLE
+RULES OF INFERENCE TABLE
 
 | Tautology | Name |
 | :-----------: | :------------: |
