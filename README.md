@@ -12,13 +12,13 @@ dismathportfolio-biancamille created by Classroom for GitHub
 | :-----: |:-------:|:-----:| :-------: | :-------: |
 | ¬ |Negation | not | val(¬p) = 1 - val(p) | ¬p |
 | ∧ | Conjunction | and | val(p ∧ q) = min(val(p), val(q)) | p ∧ q |
-| v | Disjunction | or | val(p v q) = max(val(p), val(q)) | p v q |
+| ∨ | Disjunction | or | val(p v q) = max(val(p), val(q)) | p v q |
 | ⊕ | Exclusive disjunction | xor | if val(p)  not equal val(q) = 1 , otherwise  0|  p ⊕ q  ≡ (¬p ∧ q) v (p ∧ ¬q) |
 | → | Conditional | if, then | if val(p)  ≤ val(q) = 1 , otherwise  0  | p → q ≡  ¬p v q |
 | ↔ | Biconditional | iff | if val(p) equals val(q) = 1 , otherwise  0 |  p ↔ q ≡ (p → q) ∧ (q → p) |
 
 - I did an advanced reading on "Logical Equivalences and Proof by Truth Table", so I learned the different logical equivalences to use in proving.
-- I read the "Rules of Interference" and I got so confused but I already have an idea how it works so maybe I'll just wait for the time that this will be discussed.
+- I read the "Rules of Inference" and I got so confused but I already have an idea how it works so maybe I'll just wait for the time that this will be discussed.
 - I tried to answer the drills and I find it interesting because it challenges my brain to work.
 
 ## Week 2:
@@ -43,10 +43,28 @@ TRUTH TABLE FOR NEGATION OF EXCLUSIVE OR
 | 1 | 1 | 0 | 1 |
 
 - I learned the proper way of proving certain problem that only uses Logical Equivalences, by identifying what law was applied per step.
-- If there's a problem that i need to evaluate, any tools can be used and it will come up to the same answer. For example: Evaluate (p ∧ q) → (p v q). It will come up to the same answer **T** when we use Truth Table or Logical Equivalences - *Implication Equivalence*.
+- If there's a problem that i need to evaluate, any tools can be used and it will come up to the same answer. For example: Evaluate (p ∧ q) → (p ∨ q). It will come up to the same answer **T** when we use Truth Table or Logical Equivalences - *Implication Equivalence*.
 - I learned that Tautology is always true in every possible interpretation.
 - I learned that in Universal Quantifier (**∀ x P(x)**), a substitution is not possible for that to be true, rather, the Predicate **P(x) is true for every x**.
-- The logical expresion for Universal Quantifier is (P1 ∧ P2 ∧ P3 ∧ ... ∧ Pn) while for Existential Quantifier (P1 v P2 v P3 v ... v Pn).
+- The logical expresion for Universal Quantifier is (P1 ∧ P2 ∧ P3 ∧ ... ∧ Pn) while for Existential Quantifier (P1 ∨ P2 ∨ P3 ∨ ... ∨ Pn).
 - I learned that it is easy to prove Existential Quantifier but hard to disprove, opposite with the Universal Quantifier wherein it is easy to disprove it but hard to prove that it is true for instances that are all true.
 - I learned that if I want the Universal Quantifier and Existential Quantifier to be false, I will negate them and use the rule of De Morgan by distributing the negation (¬) to their logical expressions.
 - In summary, I learned that the **negation of the Universal Statement is the Existential Statement** while the **negation of the Existential Statement is the Universal Statement**.
+
+## Week 3:
+- The learned that the Rule of Inference is used to prove for a sequence of statements that would end up with a conclusion.
+- I learned that the conclusion must follow from the truth of the preceding statements, or what we call the **premises**, of the argument.
+- I learned that whenever all its premises are true, the conclusion must also be true, in other words we call it the **Tautology**.
+
+RULE OF INFERENCE TABLE
+
+| Tautology | Name |
+| :-----------: | :------------: |
+| (p ∧ (p → q)) → q | Modus Ponens |
+| (¬q ∧ (p → q)) → ¬p | Modus Tollens |
+| ((p → q) ∧ (q → r)) → (p → r) | Hypothetical Syllogism |
+| ((p ∨ q) ∧ ¬p) → q | Disjunctive Syllogism |
+| p → (p ∨ q) | Addition |
+| (p ∧ q) → p | Simplification |
+| ((p) ∧ (q)) → (p ∧ q) | Conjunction |
+| ((p ∨ q) ∧ (¬p ∨ r)) → (q ∨ r) | Resolution |
