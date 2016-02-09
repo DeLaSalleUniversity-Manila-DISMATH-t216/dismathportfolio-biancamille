@@ -111,7 +111,7 @@ RULES OF INFERENCE TABLE
   - prevent evil (p)
   - impotent (i)
   - malevolent (m)
-  - exists (e)
+  - exist (e)
 
 || Premises: |
 |:--:| :-------: |
@@ -119,7 +119,7 @@ RULES OF INFERENCE TABLE
 |P2| ¬a → i|
 |P3| ¬w → m|
 |P4| ¬p|
-|P5| e → (¬i ∧ m)|
+|P5| e → (¬i ∧ ¬m)|
 |∴| ¬e|
 
 SOLUTION:
