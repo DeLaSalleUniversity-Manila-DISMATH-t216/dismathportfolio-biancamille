@@ -102,3 +102,36 @@ RULES OF INFERENCE TABLE
   - “q whenever p”
   - “q is necessary for p”
   - “q follows from p”
+- I learned that before proving a valid argument, I should list down all the premises in logical expression.
+- By the use of Rules of Inference and other laws, we will come up to a conclusion that "Superman Does Not Exist" logically.
+
+*"If Superman were able and willing to prevent evil, he would do so. If Superman were unable to prevent evil, he would be impotent; if he were unwilling to prevent evil, he would be malevolent. Superman does not prevent evil. If Superman exists, he is neither impotent nor malevolent. Therefor, Superman does not exist."*
+  - able (a)
+  - willing (w)
+  - prevent evil (p)
+  - impotent (i)
+  - malevolent (m)
+  - exists (e)
+
+|| Premises: |
+|:--:| :-------: |
+|P1| (a ∧ w) → p|
+|P2| ¬a → i|
+|P3| ¬w → m|
+|P4| ¬p|
+|P5| e → (¬i ∧ m)|
+|∴| ¬e|
+
+SOLUTION:
+
+| Step | Logical Expression | Laws Used | Step | Logical Expression | Laws Used |
+|:----:|:----:|:----:|:----:|:----:|:----:|
+|1|¬(a ∧ w) ∨ p| A→B ≡ ¬A∨B (P1)|9| w ∨ m | Negation (8)|
+|2|p ∨ ¬(a ∧ w)| Commutative (1)|10| ¬w ∨ i | Commutative (7) |
+|3|¬(a ∧ w)| Disjunctive Syllogism (2,P4)|11| m ∨ i | Resolution (9,10) |
+|4|¬a ∨ ¬w| de Morgan's (3)|12| ¬(¬i ∧ ¬m) → ¬e | Contrapositive (P5) |
+|5|¬¬a ∨ i| A→B ≡ ¬A∨B (P2)|13| (i ∨ m) → ¬e| de Morgan's (12) |
+|6|a ∨ i| Negation (5)|14| (i ∨ m) | Commutative (11) | 
+|7|i ∨ ¬w| Resolution (6,4)|15| ¬e | Modus Ponens (13,14)|
+|8|¬¬w ∨ m| A→B ≡ ¬A∨B (P3)|16| ∴ ¬e | |
+
