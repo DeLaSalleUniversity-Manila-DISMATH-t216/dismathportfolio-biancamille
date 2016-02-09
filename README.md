@@ -18,6 +18,20 @@ dismathportfolio-biancamille created by Classroom for GitHub
 | ↔ | Biconditional | iff | if val(p) equals val(q) = 1 , otherwise  0 |  p ↔ q ≡ (p → q) ∧ (q → p) |
 
 - I did an advanced reading on "Logical Equivalences and Proof by Truth Table", so I learned the different logical equivalences to use in proving.
+
+| Name |||
+| :-----: |:-------:|:-----:|
+| Identity Laws | p ∨ F ≡ p | p ∧ T ≡ p |
+| Domination Laws| p ∨ T ≡ T | p ∧ F ≡ F |
+| Negation Laws| p ∧ ¬p ≡ F | p ∨ ¬p ≡ T |                                            
+| Double Negation Laws | (¬(¬p) ≡ p) |                                                           
+| Idempotent Laws| p ∨ p ≡ p | p ∧ p ≡ p |                                              
+| Commutative Laws | p ∨ q ≡ q ∨ p | p ∧ q ≡ q ∧ p |                                       
+| Associative Laws | (p ∨ q) ∨ r ≡ p ∨ (q ∨ r) | (p ∧ q) ∧ r ≡ p ∧ (q ∧ r) |            
+| Distributive Laws | p ∨ (q ∧ r) ≡ (p ∨ q) ∧ (p ∨ r) | p ∧ (q ∨ r) ≡ (p ∧ q) ∨ (p ∧ r) |  
+| De Morgan's Laws| ¬(p ∧ q) ≡ ¬p ∨ ¬q | ¬(p ∨ q) ≡ ¬p ∧ ¬q |                        
+| Absorption Laws | p ∨ (p ∧ q) ≡ p | p ∧ (p ∨ q) ≡ p |                              
+
 - I read the "Rules of Inference" and I got so confused but I already have an idea how it works so maybe I'll just wait for the time that this will be discussed.
 - I tried to answer the drills and I find it interesting because it challenges my brain to work.
 
@@ -42,6 +56,11 @@ TRUTH TABLE FOR NEGATION OF EXCLUSIVE OR
 | 1 | 0 | 1 | 0 |
 | 1 | 1 | 0 | 1 |
 
+- I learned the following inverse, converse, and contrapositive of p → q:
+  - Inverse: ¬p → ¬q
+  - Converse: q → p
+  - Contrapositive: ¬q → ¬p
+- An implication A → B ≡ ¬A ∨ B
 - I learned the proper way of proving certain problem that only uses Logical Equivalences, by identifying what law was applied per step.
 - If there's a problem that i need to evaluate, any tools can be used and it will come up to the same answer. For example: Evaluate (p ∧ q) → (p ∨ q). It will come up to the same answer **T** when we use Truth Table or Logical Equivalences - *Implication Equivalence*.
 - I learned that Tautology is always true in every possible interpretation.
@@ -68,3 +87,18 @@ RULES OF INFERENCE TABLE
 | (p ∧ q) → p | Simplification |
 | ((p) ∧ (q)) → (p ∧ q) | Conjunction |
 | ((p ∨ q) ∧ (¬p ∨ r)) → (q ∨ r) | Resolution |
+
+- I learned that conditional statements play an essential role in mathematical reasoning, in which it has the variety of terminology used to express p → q:
+  - “if p, then q”
+  - “if p, q”
+  - “p is sufficient for q”
+  - “q if p”
+  - “q when p
+  - “a necessary condition for p is q”
+  - “q unless ¬p”
+  - “p implies q”
+  - “p only if q”
+  - “a sufficient condition for q is p”
+  - “q whenever p”
+  - “q is necessary for p”
+  - “q follows from p”
