@@ -135,3 +135,7 @@ SOLUTION:
 |7|i ∨ ¬w| Resolution (6,4)|15| ¬e | Modus Ponens (13,14)|
 |8|¬¬w ∨ m| A→B ≡ ¬A∨B (P3)|16| ∴ ¬e | |
 
+## Week 4
+- I learned that in Direct Proof, we **assume that P is true** and **show that Q is true**.
+- I also learned that in Indirect Proof, we **take ¬Q as a hypothesis** and will **show that ¬P must follow*.
+- In Proof by Contraposition or Indirect Proof, if we are given a statement "P implies Q", we will come up with the definition of its Contrapositive "¬Q → ¬P".
