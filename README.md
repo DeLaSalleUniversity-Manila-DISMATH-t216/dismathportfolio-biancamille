@@ -137,5 +137,5 @@ SOLUTION:
 
 ## Week 4
 - I learned that in Direct Proof, we **assume that P is true** and **show that Q is true**.
-- I also learned that in Indirect Proof, we **take ¬Q as a hypothesis** and will **show that ¬P must follow*.
+- I also learned that in Indirect Proof, we **take ¬Q as a hypothesis** and will **show that ¬P must follow**.
 - In Proof by Contraposition or Indirect Proof, if we are given a statement "P implies Q", we will come up with the definition of its Contrapositive "¬Q → ¬P".
