@@ -139,3 +139,12 @@ SOLUTION:
 - I learned that in Direct Proof, we **assume that P is true** and **show that Q is true**.
 - I also learned that in Indirect Proof, we **take ¬Q as a hypothesis** and will **show that ¬P must follow**.
 - In Proof by Contraposition or Indirect Proof, if we are given a statement "P implies Q", we will come up with the definition of its Contrapositive "¬Q → ¬P".
+- In Vacuous and Trivial Proofs, the technique for that is to know the truth table for Implication where it will always be true.
+- In Vacuous Proof, if P is False, then the Implication is True.
+- In Trivial Proof, if Q is true, then the Implication is True.
+- Some arguments where Q is simple, it's okay to use Contraposition Proof than Direct Proof.
+- Contradiction Proof is where we contradicts the first premise that is negated (¬ PREMISE ≡ T).
+
+## Week 5
+- We discussed the Proof of Equivalence or Biconditionals, where it is the combination of the previous proof.
+- Proof of Equivalence shows that (p ↔ q) ↔ [(p → q) ∧ (q → p)].
