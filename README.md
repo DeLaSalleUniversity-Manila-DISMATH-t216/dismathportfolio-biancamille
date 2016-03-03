@@ -159,6 +159,10 @@ SOLUTION:
   - INTERSECTION: A ∩ B -- {x|(x∈A) ∧ (x∈B)}
   - SET DIFFERENCE: A - B or A \ B -- {x|(x∈A) ∧ (x∈B)}
   - SYMMETRIC DIFFERENCE: A ∆ B -- {x|((x∈A) ∧ (x∉B)) ∨ ((x∈B) ∧ (x∉A))}
+- We've discussed that Cardinality is knowing the number of elements in a set.
+- Cardinality is denoted by writing |S|, where S is a set.
+- If we are asked what is the Cardinality of a given infinite numbers such as natural numbers, it can be defined as "aleph-zero", "alephnought", or "alephnull".
+- 
 
 ## Week 7:
 - 
