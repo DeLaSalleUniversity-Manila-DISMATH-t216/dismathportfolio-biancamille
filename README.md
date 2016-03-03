@@ -162,7 +162,6 @@ SOLUTION:
 - We've discussed that Cardinality is knowing the number of elements in a set.
 - Cardinality is denoted by writing |S|, where S is a set.
 - If we are asked what is the Cardinality of a given infinite numbers such as natural numbers, it can be defined as "aleph-zero", "alephnought", or "alephnull".
-- 
 
 ## Week 7:
 - 
