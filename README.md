@@ -135,7 +135,7 @@ SOLUTION:
 |7|i ∨ ¬w| Resolution (6,4)|15| ¬e | Modus Ponens (13,14)|
 |8|¬¬w ∨ m| A→B ≡ ¬A∨B (P3)|16| ∴ ¬e | |
 
-## Week 4
+## Week 4:
 - I learned that in Direct Proof, we **assume that P is true** and **show that Q is true**.
 - I also learned that in Indirect Proof, we **take ¬Q as a hypothesis** and will **show that ¬P must follow**.
 - In Proof by Contraposition or Indirect Proof, if we are given a statement "P implies Q", we will come up with the definition of its Contrapositive "¬Q → ¬P".
@@ -145,6 +145,20 @@ SOLUTION:
 - Some arguments where Q is simple, it's okay to use Contraposition Proof than Direct Proof.
 - Contradiction Proof is where we contradicts the first premise that is negated (¬ PREMISE ≡ T).
 
-## Week 5
+## Week 5:
 - We discussed the Proof of Equivalence or Biconditionals, where it is the combination of the previous proof.
 - Proof of Equivalence shows that (p ↔ q) ↔ [(p → q) ∧ (q → p)].
+- We discussed the Mathematical Induction wherein the Basic Step is to let P(n) be true, and the Inductive Step is to prove that what is shown is supposed to be true by making the P(n) be P(k) and P(k+1).
+- Recursive Induction was discussed where the basic step is to specify the value of the function at zero, and the recursive step that gives a rule for finding its value at an integer from its values at smaller integers.
+
+## Week 6:
+- We've discussed the Set Theory.
+- I learned that when we are given a two sets with different elements, it is also the same set as long as they were just repeated.
+- We've recall the terms that was already discussed in Algebra: Union, Intersection, Set Difference, and Symmetric Difference.
+  - UNION: A ∪ B -- {x|(x∈A) ∨ (x∈B)}
+  - INTERSECTION: A ∩ B -- {x|(x∈A) ∧ (x∈B)}
+  - SET DIFFERENCE: A - B or A \ B -- {x|(x∈A) ∧ (x∈B)}
+  - SYMMETRIC DIFFERENCE: A ∆ B -- {x|((x∈A) ∧ (x∉B)) ∨ ((x∈B) ∧ (x∉A))}
+
+## Week 7:
+- 
