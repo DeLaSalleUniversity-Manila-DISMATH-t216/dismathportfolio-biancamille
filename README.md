@@ -164,4 +164,20 @@ SOLUTION:
 - If we are asked what is the Cardinality of a given infinite numbers such as natural numbers, it can be defined as "aleph-zero", "alephnought", or "alephnull".
 
 ## Week 7:
-- 
+- I learned that Algorithm is one of the hardest topic in DISMATH.
+- An Algorithm is a finite set of precise instructions for performing a computation or for solving a problem.
+- I learned that Pseudocode is the high-level description of an algorithm that uses the structural conventions (Input, Body, and Output)
+- I learned that **Precondition** describes the valid input whilst **Postcondition** is the output that was satisfied when the program run.
+- I learned that in order for the Pseudocode to be correct, the following properties should be obtain:
+  - Input
+  - Output
+  - Defineteness - it is defined precisely
+  - Correctness - the output value are correct
+  - Finiteness - it is limited with the given input
+  - Generality
+
+## Week 8:
+- I learned the two types/exampls of Search Algorithm: Linear Search and Binary Search.
+- I learned two new terms and symbols that will be used for Pseudocode: floor and ceiling.
+- I somehow forgot that when doing Pseudocode, it should be in general not the specific value of the given input.
+- I learned the two types/examples of Sorting Algorithm: Bubble Sort and Insertion Sort.
