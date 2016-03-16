@@ -181,3 +181,17 @@ SOLUTION:
 - I learned two new terms and symbols that will be used for Pseudocode: floor and ceiling.
 - I somehow forgot that when doing Pseudocode, it should be in general not the specific value of the given input.
 - I learned the two types/examples of Sorting Algorithm: Bubble Sort and Insertion Sort.
+- I learned an example for Greedy Algorithm, the Greedy-Change.
+- The growth of functions was introduced and Big-O notation was discussed first.
+- In the Growth of Function, it has a constants of C and k that describes as the witnesses.
+- Big-O notation is the upper bound of a function.
+
+## Week 9:
+- Big-O notation was further explained, and the two remaining Growth of Functions were also discussed.
+- Aside for Big-O notation, Big-Omega and Big-Theta are also part of Growth of Functions.
+- Big-Omega is the lower bound of a function, while Big-Theta is the upper and lower bound of a function.
+- Mathematical definition:
+  - Big-O: |f(x)| ≤ |C(g(x))|
+  - Big-Omega: |f(x)| ≥ |C(g(x))|
+  - Big-Theta: |C1(g(x))| ≤ |f(x)| ≤ |C2(g(x))|
+- The Time Complexity of Algorithm was discussed but I'm having a difficulty to determine the comparisons of an algorithm.
