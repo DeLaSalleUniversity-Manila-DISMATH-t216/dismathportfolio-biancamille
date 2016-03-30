@@ -215,6 +215,6 @@ SOLUTION:
 - **Planar Graphs** is done by making the edges not cross each other.  
 - There is an **Euler's Formula** for computing the number of regions: **r = e - v + 2**  
 - **Kuratowski's Theorem** is when a graph is nonplanar iff it contains a subgraph homeomorphic to the following graph.  
-- It is called **Complete Graphs* on *n* vertices, denoted  by Kn, a simple graph that contains exactly one edge between each pair of distinct vertices.  
+- It is called **Complete Graphs** on *n* vertices, denoted  by Kn, a simple graph that contains exactly one edge between each pair of distinct vertices.  
 - Petersen Graph is K3,3.  
 
