@@ -197,7 +197,7 @@ SOLUTION:
 - The Time Complexity of Algorithm was discussed but I'm having a difficulty to determine the comparisons of an algorithm.
 
 ## Week 10:  
-- I learned the technique on knowing the comparisons of the algorithms that was discussed.  
+- I learned the technique on knowing the comparisons of the algorithms that were discussed.  
 - We had our 2nd Quiz.  
 
 ## Week 11:  
