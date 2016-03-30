@@ -195,3 +195,26 @@ SOLUTION:
   - Big-Omega: |f(x)| ≥ |C(g(x))|
   - Big-Theta: |C1(g(x))| ≤ |f(x)| ≤ |C2(g(x))|
 - The Time Complexity of Algorithm was discussed but I'm having a difficulty to determine the comparisons of an algorithm.
+
+## Week 10:  
+- I learned the technique on knowing the comparisons of the algorithms that was discussed.  
+- We had our 2nd Quiz.  
+
+## Week 11:  
+- New topic was discussed, it is said that this topic is the easiest one but its kind of tricky for me.  
+- We discussed Graph Theory; in which a graph G = (V,E) consists of V a nonempty set of vertices (or nodes) and E is a set of edges where each of it has either one or two vertices associated with it, called its endpoints.  
+- I learned the Handshaking Theorem with a given formula: **2e=∑deg(v)**  
+- Königsberg Problem was introduced to us as an introduction for Euler Circuit and Path.  
+- Definition:  
+  - **Euler Circuit** - It has an Euler Circuit iff a graph has even degree for all nodes/vertices  
+  - **Euler Path** - It has an Euler Path if the graph has exactly two (2) nodes/vertices with odd degree.  
+- Hamilton Circuit and Path was also discussed; It is also same with Euler Circuit and Paths but the only difference is in Hamilton, instead of passing all through the edges, it should pass all through the vertices/nodes.  
+- It is called a Hamiltonian if it is both Circuit and a Path, same goes to Eulerian.  
+- I learned how to make a graph out of matrices.  
+- The **Isomorphism of Graphs** is when two graphs are still the same when the orientation changes.  
+- **Planar Graphs** is done by making the edges not cross each other.  
+- There is an **Euler's Formula** for computing the number of regions: **r = e - v + 2**  
+- **Kuratowski's Theorem** is when a graph is nonplanar iff it contains a subgraph homeomorphic to the following graph.  
+- It is called **Complete Graphs* on *n* vertices, denoted  by Kn, a simple graph that contains exactly one edge between each pair of distinct vertices.  
+- Petersen Graph is K3,3.  
+
