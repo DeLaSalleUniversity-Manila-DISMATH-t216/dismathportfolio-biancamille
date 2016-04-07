@@ -1,6 +1,10 @@
 # My DISMATH Portfolio
 dismathportfolio-biancamille created by Classroom for GitHub
 
+**Camille Bianca Gomez**
+*11265930*
+**DISMATH XE1**
+
 ## Week 1:
 - From our orientation, I learned that the topics to be discussed are not easy.
 - I learned that I need to study hard on this subject to pass, even though I have lots of major subjects this term.
@@ -216,5 +220,22 @@ SOLUTION:
 - There is an **Euler's Formula** for computing the number of regions: **r = e - v + 2**  
 - **Kuratowski's Theorem** is when a graph is nonplanar iff it contains a subgraph homeomorphic to the following graph.  
 - It is called **Complete Graphs** on *n* vertices, denoted  by Kn, a simple graph that contains exactly one edge between each pair of distinct vertices.  
-- Petersen Graph is K3,3.  
+- Petersen Graph is K3,3, therefore the graph is nonplanar.  
 
+## Week 12:
+- I learned about Graph Coloring where there are no adjacent nodes can share the same color.
+- Chromatic number of a graph is the minimal number of colors needed for coloring a graph. It is denoted by  χ(G), where G is the chromatic number of a graph.
+- The best algorithms known for finding the chromatic number of a graph have **exponential** worst-casetimecomplexity.
+- I learned from the Four Color Theorem that *"The chromatic number of a planar graph is no greater than four (4)."*t
+- In Cycles (Cn), for every odd number of n, the chromatic number is 3; while for every even number of n, the chromatic number is 2.
+- In Complete Graphs (Kn), the chromatic number is the value n.
+- I learned about **Trees** where a tree is a connected undirected graph with NO simple circuits.
+- An undirected graph is a tree if and only if there is a unique simple path between any two of its vertices.
+- I learned that a rooted tree is a tree in which one vertex has been designated as the root and every edge is directed away from the root.
+- I learned the different terms for trees: parent, siblings, child, ancestors, descendants, leaf, and internal vertices.
+- I learned that a rooted tree is called an *m-ary tree*  if every internal vertex has no more than m children.
+- The tree is called a *full m-ary tree* if every internal vertex has exactly m children. 
+- An m-ary tree with m = 2 is called a binary tree.
+- There are formulas for finding the number of nodes, leaves, and internal vertices.
+- I learned the Automata Theory where it studies the law of computation. 
+- Under the Modeling Computation is the Finite-State Machines, and I learned how the state machines work having the examples given in the book including its application, the Vending Machine. 
